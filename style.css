@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f9f9fb;
+    color: #111;
+}
+
+header {
+    background: #EEEFF1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cofee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+    background: #EEEFF1;
+}
+
+.text {
+    flex: 1 1 400px;
+    min-width: 280px;
+}
+
+.text h1 {
+    font-size: 110px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.text button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.cofee img {
+    flex: 1 1 400px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.cofee img:hover {
+    transform: translateY(-59px);
+}
+
+button:hover {
+    color: #001F3F;
+    background-color: rgba(172, 215, 109, 0.643);
+}
+
+.title {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 30px;
+}
+
+.title p {
+    font-size: 16px;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px 20px;
+    width: 300px;
+    min-height: 400px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.card button:hover {
+    color: #001F3F;
+    background-color: rgba(172, 215, 109, 0.643);
+}
+
+.cups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+.cups img {
+    flex: 1 1 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.cups .text {
+    flex: 1 1 400px;
+    min-width: 280px;
+}
+
+.cups h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cups p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.product {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product h4 {
+    margin-bottom: 5px;
+}
+
+.product h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.product button:hover {
+    color: #001F3F;
+    background-color: rgba(172, 215, 109, 0.643);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+h2 {
+    margin-top: 80px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .section {
+        padding: 40px 10px;
+    }
+
+    .cofee, .cups {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.login{
+    margin-left: 100px;
+}
+
+.singin button{
+    background: #111;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+}
